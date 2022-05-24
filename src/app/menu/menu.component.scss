@@ -1,0 +1,149 @@
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  min-height: 100vh;
+  min-width: 75vw;
+  width: 100%;
+}
+
+.menu > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.centerlogo {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.logoContainer img {
+  background-color: white;
+  width: 100px;
+}
+
+.logoContainer {
+  height: 125px;
+  width: 125px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  top: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 2px transparent;
+  box-shadow: 0 1px 5px #afadad;
+  overflow: auto;
+}
+
+.menuheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infosection {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.infosection img {
+  width: 20px;
+}
+
+.info,
+.favorite {
+  padding: 0px 10px;
+  border: #e1e6e2 solid 1px;
+  display: flex;
+  cursor: pointer;
+}
+
+.info {
+  position: relative;
+  left: 1px;
+}
+
+.deliverytimes > p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rewie a {
+  color: #fb6100;
+  font-size: 14px;
+}
+
+.rewie img {
+  width: 15px;
+}
+
+.foodtypes img {
+  width: 15px;
+}
+
+.foodtypes {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foodtypes * {
+  display: inline;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foodtypes a {
+  text-decoration: none;
+  color: grey;
+}
+
+.foodtypes a:active {
+  color: #fb6100;
+  text-decoration: none;
+}
+
+.dishes h2 {
+  text-decoration: underline;
+}
+
+.dishes div {
+  border: 1px solid black;
+  position: relative;
+}
+
+.dishes div {
+  border: 1px solid grey;
+  position: relative;
+  margin: 5px 0px;
+  padding: 10px;
+}
+
+.dishesText {
+  color: grey;
+  font-size: 13px;
+}
+
+.dishes button {
+  color: blue;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.pricing {
+  display: block;
+  color: #fb6100;
+  font-weight: 700;
+}

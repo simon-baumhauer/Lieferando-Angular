@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { BasketComponent } from './basket/basket.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DialogComponent,
-    BasketComponent
+    BasketComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

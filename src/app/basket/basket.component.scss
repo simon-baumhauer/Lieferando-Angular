@@ -1,0 +1,62 @@
+.basket {
+  width: 100%;
+  border-left: solid 2px transparent;
+  box-shadow: 0 1px 5px #afadad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 92vh;
+  max-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.basket h2 {
+  width: 101%;
+  text-align: center;
+  padding: 15px 0px;
+  border-bottom: solid 1px transparent;
+  box-shadow: 0 1px 5px #afadad;
+  font-size: 16px;
+}
+
+.basket > img {
+  font-size: 16px;
+  margin: 50px 0 20px 0;
+  width: 30px;
+}
+
+.default-text p {
+  font-size: 14px;
+  color: grey;
+  padding: 0 30px;
+  margin-top: 10px;
+}
+
+.basketItems {
+  width: 90%;
+}
+
+.basketItems > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summation {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.summation > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.finalSum {
+  font-weight: 700;
+}
+
+.trashbin {
+  width: 15px;
+}

@@ -1,0 +1,51 @@
+.nav {
+  background-color: #fb6100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  z-index: 4;
+}
+
+.nav * {
+  padding: 10px;
+}
+
+.nav img {
+  width: 30px;
+}
+
+.nav > img {
+  min-width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.nav h2 {
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.nav * {
+  display: inline;
+}
+
+.nav_icons {
+  display: flex;
+  align-items: center;
+}
+
+.language {
+  padding: 0;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+.menu-layout {
+  padding: 0px 20px;
+}
