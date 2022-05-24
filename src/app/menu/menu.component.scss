@@ -1,12 +1,24 @@
+.menu-layout {
+  padding: 0px 20px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
 .header_menu {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .menu {
   min-height: 100vh;
   min-width: 75vw;
   width: 100%;
+}
+.card {
+  border: none;
 }
 
 .menu > img {
@@ -58,15 +70,16 @@
 
 .info,
 .favorite {
-  padding: 0px 10px;
+  padding: 0px 9px;
   border: #e1e6e2 solid 1px;
   display: flex;
+  border-radius: 5px;
   cursor: pointer;
+  height: 42px;
 }
 
 .info {
   position: relative;
-  left: 1px;
 }
 
 .deliverytimes > p {

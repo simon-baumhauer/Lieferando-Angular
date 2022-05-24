@@ -8,6 +8,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { BasketComponent } from './basket/basket.component';
 import { MenuComponent } from './menu/menu.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -15,14 +19,18 @@ import { MenuComponent } from './menu/menu.component';
     NavbarComponent,
     DialogComponent,
     BasketComponent,
-    MenuComponent
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -9,10 +9,22 @@
   align-items: center;
   height: 4.5rem;
   z-index: 4;
+
+  a {
+    img {
+      padding: 0px;
+    }
+  }
+}
+
+.language {
+  border: 4px solid white;
+  border-radius: 50%;
 }
 
 .nav * {
   padding: 10px;
+  display: inline;
 }
 
 .nav img {
@@ -29,21 +41,12 @@
   color: white;
   text-decoration: underline;
   font-size: 18px;
-}
-
-.nav * {
-  display: inline;
+  margin: 0;
 }
 
 .nav_icons {
   display: flex;
   align-items: center;
-}
-
-.language {
-  padding: 0;
-  border: 4px solid white;
-  border-radius: 50%;
 }
 
 .menu-layout {
