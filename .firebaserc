@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "lieferando-48133": {
+      "hosting": {
+        "Lieferando-Angular": [
+          "lieferando-48133"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "lieferando-48133"
+  }
+}

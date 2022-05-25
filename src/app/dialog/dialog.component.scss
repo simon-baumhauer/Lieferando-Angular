@@ -27,8 +27,12 @@
   padding: 20px 5px;
 }
 
-.locationContainer p {
+p {
   padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
 }
 
 .locationContainer > span {
@@ -45,4 +49,10 @@
 
 h3 {
   font-weight: bold !important;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
