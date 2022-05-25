@@ -16,16 +16,16 @@
     </span>
     <div class="menuheader">
       <section class="rewie">
-        <img src="img/star-solid.svg" alt="" />
-        <img src="img/star-solid.svg" alt="" />
-        <img src="img/star-solid.svg" alt="" />
-        <img src="img/star-solid.svg" alt="" />
-        <img src="img/star-regular.svg" alt="" />
+        <img src="assets/img/star-solid.svg" alt="" />
+        <img src="assets/img/star-solid.svg" alt="" />
+        <img src="assets/img/star-solid.svg" alt="" />
+        <img src="assets/img/star-solid.svg" alt="" />
+        <img src="assets/img/star-regular.svg" alt="" />
         <a href="">(1,3k Bewertungen)</a>
       </section>
     </div>
     <div class="foodtypes">
-      <img src="img/search-solid.svg" alt="" />
+      <img src="assets/img/search-solid.svg" alt="" />
       <a href="#favorites">Beliebte Gerichte</a>
       <a href="#salad">Salate</a>
       <a href="#pizza">Pizza</a>
@@ -42,7 +42,7 @@
         <h3>Pizza Salami</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">9,90 €</span>
-        <button onclick="addToBasket('Pizza Salami', '9.95')">+</button>
+        <button (click)="addToBasket('Pizza Salami', '9.95')">+</button>
       </div>
       <div>
         <h3>Cheeseburger</h3>
@@ -51,13 +51,13 @@
           Ketchup</span
         >
         <span class="pricing">5,60 €</span>
-        <button onclick="addToBasket('Cheeseburger', '5.60')">+</button>
+        <button (click)="addToBasket('Cheeseburger', '5.60')">+</button>
       </div>
       <div>
         <h3>Crispy Chicken Burger</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">9,90 €</span>
-        <button onclick="addToBasket('Crispy Chicken Burger', '7.20')">
+        <button (click)="addToBasket('Crispy Chicken Burger', '7.20')">
           +
         </button>
       </div>
@@ -69,7 +69,7 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">9,90 €</span>
-        <button onclick="addToBasket('Salat Mista', '6.90')">+</button>
+        <button (click)="addToBasket('Salat Mista', '6.90')">+</button>
       </div>
       <div>
         <h3>Salat Pomodoro e Rucola</h3>
@@ -78,7 +78,7 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">7,80 €</span>
-        <button onclick="addToBasket('Salat Pomodoro e Rucola', '7.80')">
+        <button (click)="addToBasket('Salat Pomodoro e Rucola', '7.80')">
           +
         </button>
       </div>
@@ -89,7 +89,7 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">8,50 €</span>
-        <button onclick="addToBasket('Salat Caprese', '8.50')">+</button>
+        <button (click)="addToBasket('Salat Caprese', '8.50')">+</button>
       </div>
       <div>
         <h3>Krautsalat</h3>
@@ -98,7 +98,7 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">9,00 €</span>
-        <button onclick="addToBasket('Krautsalat', '9.00')">+</button>
+        <button (click)="addToBasket('Krautsalat', '9.00')">+</button>
       </div>
       <div>
         <h3>Salat Feta</h3>
@@ -107,7 +107,7 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">9,20 €</span>
-        <button onclick="addToBasket('Salat Feta', '9.20')">+</button>
+        <button (click)="addToBasket('Salat Feta', '9.20')">+</button>
       </div>
       <div>
         <h3>Salat Pollo</h3>
@@ -116,7 +116,7 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">9,45 €</span>
-        <button onclick="addToBasket('Salat Pollo', '9.45')">+</button>
+        <button (click)="addToBasket('Salat Pollo', '9.45')">+</button>
       </div>
       <div>
         <h3>Salat Calamri</h3>
@@ -125,7 +125,7 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">10,00 €</span>
-        <button onclick="addToBasket('Salat Calamri', '10.00')">+</button>
+        <button (click)="addToBasket('Salat Calamri', '10.00')">+</button>
       </div>
       <div>
         <h3>Salat Gamberetto</h3>
@@ -134,51 +134,51 @@
           mit Essig-Öl-Dressing, mit Kräuter-Dressing oder ohne Dressing.</span
         >
         <span class="pricing">11,45 €</span>
-        <button onclick="addToBasket('Salat Gamberetto', '11.45')">+</button>
+        <button (click)="addToBasket('Salat Gamberetto', '11.45')">+</button>
       </div>
       <h2 id="pizza">Pizza</h2>
       <div>
         <h3>Pizza Margherita</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">8,50 €</span>
-        <button onclick="addToBasket('Pizza Margherita', '8.50')">+</button>
+        <button (click)="addToBasket('Pizza Margherita', '8.50')">+</button>
       </div>
       <div>
         <h3>Pizza Salami</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">9,90 €</span>
-        <button onclick="addToBasket('Pizza Salami', '9.90')">+</button>
+        <button (click)="addToBasket('Pizza Salami', '9.90')">+</button>
       </div>
       <div>
         <h3>Pizza Prosciutto</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">10,00 €</span>
-        <button onclick="addToBasket('Pizza Prosciutto', '10.00')">+</button>
+        <button (click)="addToBasket('Pizza Prosciutto', '10.00')">+</button>
       </div>
       <div>
         <h3>Pizza Spinaci</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">9,80€</span>
-        <button onclick="addToBasket('Pizza Spinaci', '9.80')">+</button>
+        <button (click)="addToBasket('Pizza Spinaci', '9.80')">+</button>
       </div>
       <div>
         <h3>Pizza Rucola</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">9,80 €</span>
-        <button onclick="addToBasket('Pizza Rucola', '9.80')">+</button>
+        <button (click)="addToBasket('Pizza Rucola', '9.80')">+</button>
       </div>
       <div>
         <h3>Pizza Tonno</h3>
         <span class="dishesText">Wahl aus: Ø 32 cm oder 52cm x 32cm.</span>
         <span class="pricing">10,40 €</span>
-        <button onclick="addToBasket('Pizza Tonno', '10.40')">+</button>
+        <button (click)="addToBasket('Pizza Tonno', '10.40')">+</button>
       </div>
       <h2 id="Pizzabread">Pizzabrot</h2>
       <div>
         <h3>Pizzabrötchen (4Stück)</h3>
         <span class="dishesText">gefüllt mit Schinken und Käse</span>
         <span class="pricing">5,00 €</span>
-        <button onclick="addToBasket('Pizzabrötchen (4Stück)', '5.00')">
+        <button (click)="addToBasket('Pizzabrötchen (4Stück)', '5.00')">
           +
         </button>
       </div>
@@ -186,7 +186,7 @@
         <h3>Pizzabrötchen (10Stück)</h3>
         <span class="dishesText">gefüllt mit Schinken und Käse</span>
         <span class="pricing">10,00 €</span>
-        <button onclick="addToBasket('Pizzabrötchen (10Stück)', '10.00')">
+        <button (click)="addToBasket('Pizzabrötchen (10Stück)', '10.00')">
           +
         </button>
       </div>
@@ -198,7 +198,7 @@
           Parmesan</span
         >
         <span class="pricing">9.90</span>
-        <button onclick="addToBasket('Spaghetti alla Genovese', '9.90')">
+        <button (click)="addToBasket('Spaghetti alla Genovese', '9.90')">
           +
         </button>
       </div>
@@ -209,7 +209,7 @@
           Parmesan</span
         >
         <span class="pricing">9,90 €</span>
-        <button onclick="addToBasket('Penne Bacon', '9.90')">+</button>
+        <button (click)="addToBasket('Penne Bacon', '9.90')">+</button>
       </div>
       <div>
         <h3>Tagliatelle al Salomone</h3>
@@ -218,7 +218,7 @@
           Parmesan</span
         >
         <span class="pricing">10,60 €</span>
-        <button onclick="addToBasket('Tagliatelle al Salomone', '10.60')">
+        <button (click)="addToBasket('Tagliatelle al Salomone', '10.60')">
           +
         </button>
       </div>
@@ -229,7 +229,7 @@
           Parmesan</span
         >
         <span class="pricing">11,20 €</span>
-        <button onclick="addToBasket('Tagliatelle con Filetto', '11.20')">
+        <button (click)="addToBasket('Tagliatelle con Filetto', '11.20')">
           +
         </button>
       </div>
@@ -241,7 +241,7 @@
           Parmesan</span
         >
         <span class="pricing">12,90 €</span>
-        <button onclick="addToBasket('Cannelloni', '12.20')">+</button>
+        <button (click)="addToBasket('Cannelloni', '12.20')">+</button>
       </div>
       <div>
         <h3>Lasagne al Forno</h3>
@@ -250,7 +250,7 @@
           Parmesan</span
         >
         <span class="pricing">11,00 €</span>
-        <button onclick="addToBasket('Lasagne al Forno', '11.00')">+</button>
+        <button (click)="addToBasket('Lasagne al Forno', '11.00')">+</button>
       </div>
       <div>
         <h3>Spinaci-Lachs Lasagne</h3>
@@ -259,7 +259,7 @@
           Parmesan</span
         >
         <span class="pricing">12,00 €</span>
-        <button onclick="addToBasket('Spinaci-Lachs Lasagne', '12.00')">
+        <button (click)="addToBasket('Spinaci-Lachs Lasagne', '12.00')">
           +
         </button>
       </div>
@@ -269,7 +269,7 @@
           >Schichtnudeln mit Blattspinat und Mozzarella</span
         >
         <span class="pricing">9,00 €</span>
-        <button onclick="addToBasket('Broccoli-Zucchini-Auflauf', '9.00')">
+        <button (click)="addToBasket('Broccoli-Zucchini-Auflauf', '9.00')">
           +
         </button>
       </div>
@@ -280,7 +280,7 @@
           >mit Champignons, Zwiebeln und Weißwein in Jägersauce</span
         >
         <span class="pricing">12,50 €</span>
-        <button onclick="addToBasket('Cheeseburger', '12.50')">+</button>
+        <button (click)="addToBasket('Cheeseburger', '12.50')">+</button>
       </div>
       <div>
         <h3>Hawaii-Schnitzel</h3>
@@ -288,7 +288,7 @@
           >mit Champignons, Zwiebeln und Weißwein in Jägersauce</span
         >
         <span class="pricing">13,00 €</span>
-        <button onclick="addToBasket('Puten-Schnitzel', '12.00')">+</button>
+        <button (click)="addToBasket('Puten-Schnitzel', '12.00')">+</button>
       </div>
       <div>
         <h3>Schnitzel Mozzarella</h3>
@@ -296,7 +296,7 @@
           >mit Champignons, Zwiebeln und Weißwein in Jägersauce</span
         >
         <span class="pricing">11,00 €</span>
-        <button onclick="addToBasket('Schnitzel Mozzarella', '11.00')">
+        <button (click)="addToBasket('Schnitzel Mozzarella', '11.00')">
           +
         </button>
       </div>
@@ -306,7 +306,7 @@
           >mit Champignons, Zwiebeln und Weißwein in Jägersauce</span
         >
         <span class="pricing">12,20 €</span>
-        <button onclick="addToBasket('Paprika-Schnitzel', '12.20')">+</button>
+        <button (click)="addToBasket('Paprika-Schnitzel', '12.20')">+</button>
       </div>
     </div>
   </div>

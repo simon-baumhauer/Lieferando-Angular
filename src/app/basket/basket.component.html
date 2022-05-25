@@ -1,13 +1,13 @@
 <div class="basket">
   <h2>Warenkorb</h2>
-  <img src="img/shopping-basket-solid.svg" alt="" />
+  <img src="assets/img/shopping-basket-solid.svg" alt="" />
   <div id="basketItems">
     <div class="default-text">
-      <h3>Fülle deinen Warenkorb</h3>
-      <p>
-        Füge einige leckere Gerichte aus der Speisekarte hinzu und bestelle dein
-        Essen.
-      </p>
+      <ul>
+        <li *ngFor="let basket of basket$ | async">
+          {{ basket["name"] }}{{ basket["price"] }}
+        </li>
+      </ul>
     </div>
   </div>
 </div>

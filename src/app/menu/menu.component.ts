@@ -1,8 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import {
+  Firestore,
+  collectionData,
+  collection,
+  doc,
+} from '@angular/fire/firestore';
 import { MatDialog } from '@angular/material/dialog';
-import { Observable } from 'rxjs';
+import { setDoc } from '@firebase/firestore';
 import { DialogComponent } from '../dialog/dialog.component';
-import { Firestore, collectionData, collection } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-menu',
@@ -10,15 +15,9 @@ import { Firestore, collectionData, collection } from '@angular/fire/firestore';
   styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
-  item$: Observable<any>;
-  constructor(public dialog: MatDialog, firestore: Firestore) {
-    const coll = collection(firestore, 'basket');
-    this.item$ = collectionData(coll);
-
-    this.item$.subscribe((basket) => {
-      console.log('akuteller basket:', basket);
-    });
-  }
+  name: string;
+  price: string;
+  constructor(public dialog: MatDialog, private firestore: Firestore) {}
 
   ngOnInit(): void {}
 
@@ -26,5 +25,11 @@ export class MenuComponent implements OnInit {
     this.dialog.open(DialogComponent);
   }
 
-  addToBasket(name, price) {}
+  addToBasket(name, price) {
+    this.name = name;
+    this.price = price;
+    console.log(this.name, this.price);
+    const coll = collection(this.firestore, 'basket');
+    setDoc(doc(coll), { name: this.name, price: this.price });
+  }
 }

@@ -16,6 +16,10 @@ body {
   display: none;
 }
 
+.width-100 {
+  width: 100%;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -27,5 +31,11 @@ body {
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
