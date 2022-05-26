@@ -128,15 +128,11 @@ h1 {
 }
 
 .dishes div {
-  border: 1px solid black;
-  position: relative;
-}
-
-.dishes div {
-  border: 1px solid grey;
+  border: 1px solid rgba($color: #000000, $alpha: 0.1);
   position: relative;
   margin: 5px 0px;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .dishesText {

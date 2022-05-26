@@ -5,7 +5,8 @@
     <div class="default-text">
       <ul>
         <li *ngFor="let basket of basket$ | async">
-          {{ basket["name"] }}{{ basket["price"] }}
+          <span>{{ basket["name"] }}</span>
+          <span>{{ basket["price"] }}</span>
         </li>
       </ul>
     </div>
